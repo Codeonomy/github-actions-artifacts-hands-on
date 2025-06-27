@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/download-artifact@v4
-    - uses: download-action   
+      name: download-action   
       with:    
         name: hello.txt
         path: /.artifacts      
