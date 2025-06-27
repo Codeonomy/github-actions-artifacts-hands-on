@@ -26,5 +26,5 @@ jobs:
       name: download-action   
       with:    
         name: hello-artifact
-        path: /.artifacts      
+        path: ./artifacts      
     - run: cat ./artifacts/hello.txt
